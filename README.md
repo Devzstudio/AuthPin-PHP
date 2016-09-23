@@ -4,3 +4,16 @@
 Obtain API Key from https://www.authpin.com<br>
 Include authpin.class.php in your script. <br>
 Check example.php for basic usage.<br>
+
+
+#Usage
+Include authpinclass.php class and create object 
+`
+$api = "";
+require_once(authpin.class.php);
+$authpin = new AuthPin($api);
+`
+
+
+#API Info
+https://authpin.com/developer
