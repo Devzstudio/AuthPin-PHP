@@ -9,9 +9,12 @@ Check example.php for basic usage.<br>
 #Usage
 Include authpinclass.php class and create object <br>
 `
-$api = "";<br>
-require_once(authpin.class.php);<br>
-$authpin = new AuthPin($api);<br>
+$api = "";
+
+require_once(authpin.class.php);
+
+$authpin = new AuthPin($api);
+
 `
 
 
