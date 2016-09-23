@@ -4,7 +4,7 @@ $api = "";
 require_once(authpin.class.php);
 $authpin = new AuthPin($api);
 
-// Returns the QR code. Your user can this QR using AuthPin app / Website.
+// Returns the QR code. Your user can scan this QR using AuthPin App / Website.
 $email = "dev@authpin.com";
 echo $authpin->register($email);
 
