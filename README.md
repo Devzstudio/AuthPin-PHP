@@ -8,14 +8,12 @@ Check example.php for basic usage.<br>
 
 #Usage
 Include authpinclass.php class and create object <br>
-`
-$api = "";
+
+`$api = "";
 
 require_once(authpin.class.php);
 
-$authpin = new AuthPin($api);
-
-`
+$authpin = new AuthPin($api);`
 
 
 #API Info
